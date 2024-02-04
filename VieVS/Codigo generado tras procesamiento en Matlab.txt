@@ -1,0 +1,214 @@
+session     1  of     1 -------------------> Inicia sesion 1 de 1
+ Input file format: vgosDB ---------------> formato de archivo de entrada vgosDB
+Current file: ../DATA/LEVEL0/Test3/20APR02XE ---------------------> Ubicacion archivo actual
+---------------------------------------------------------------
+|                     Welcome to VIE_INIT                     |
+---------------------------------------------------------------
+ 
+Set wrapper tag to default: all ------------------------> establece una etiqueta por defecto a todo
+Set wrapper version to default: highest_version ------------------>Establece la version por defecto
+Reading wrapper: ../DATA/vgosDB/2020/20APR02XE/20APR02XE_V004_iIVS_kall.wrp --------------->Lee el archivo
+vgosdb data source:----------> fuente de datos
+
+	 observation:	 ObsEdit/GroupDelayFull_bX, nc field: GroupDelayFull -----------------------------> Carga los retrasos multibanda de las observaciones de banda X (Retraso Grupal)
+	 sigma:		 Observables/GroupDelay_bX, nc field: GroupDelaySig ----------------------------> carga el error formal del restraso
+	 ionosphere delay:	 ObsDerived/Cal_SlantPathIonoGroup_bX, nc field: Cal_SlantPathIonoGroup---------> Correccion ionosfera
+	 ionosphere delay sigma: ObsDerived/Cal_SlantPathIonoGroup_bX, nc field: Cal_SlantPathIonoGroupSigma----->error formal de las correccion de la ionosfera
+	 Iono corr: on -------------> Correccion activada
+
+ - Same ionospheric delay flag (= 0) used for all scans!------> la calidad de correccion indicado del restraso inosferico es igual para todos en este caso es igual a 0
+Ionospheric delay will be used ---------> Indicador uso del retardo inosferico
+No valid itrf2014 coordinates for ISHIOKA  => get vievsTrf coordinates (no NNT/NNR conditions applied!)---------> No Carga las coordenadas para ISHIOKA (se puede obtener coordenadas vievsTrF)
+No valid itrf2014 coordinates for WETTZ13N => get vievsTrf coordinates (no NNT/NNR conditions applied!)---------> No carga las coordenadas para WETTZ13N
+																			Para amabs no aplica condiciones sin rotación neta (NNR) y sin traducción neta (NNT)
+...reading the vgosDB file finished! ------> aqui termino de leer el archivo cargado en vgosDB
+
+A total of 11 stations, 87 quasars, 0 satellites, 800 scans and 7198 observations were found.
+The following stations were found:
+ 1. BADARY  
+ 2. FORTLEZA
+ 3. HART15M 
+ 4. ISHIOKA 
+ 5. KOKEE   
+ 6. NYALES20
+ 7. SVETLOE 
+ 8. WETTZ13N
+ 9. WETTZELL
+10. YEBES40M
+11. ZELENCHK
+
+----------------->Identifica cuatas estaciones, cuasares, satelites ,escaneos y observaciones se realizaron ademas de mostrar
+las estaciones que intervinieron en estos datos.
+
+vie_init successfully finished!
+---------------------------------------------------------------
+|                     Welcome to VIE_MOD                      |
+---------------------------------------------------------------
+
+ICRF3 is used --> GA will be corrected to 2015 using 5.8 muas/year----> indica el ICRF usado ademas de la correcion al año usando 
+Loading EOP file: ../EOP/C04_14_1962_now.txt------> Carga la tabla EARTH ORIENTATION PARAMETER (EOP) PRODUCT CENTER CENTER (PARIS OBSERVATORY)
+Interpolate EOP values for observation epochs: ----> Indica que va hacer una interpolacion de los EOP para la epoca observada
+Lagrange interpolation of EOP ----->Interpolacion de lagrange aproximacion de funciones mediante puntos concoidos
+IERS_Desai_Sibois.dat 
+...done.
+load existing ephemerides ... ----->Carga efemerides 
+IAU_2006A ----------->Efemerides
+station corrections ----------->Correccion de estaciones
+processing scan 100 of 800
+processing scan 200 of 800
+processing scan 300 of 800
+processing scan 400 of 800
+processing scan 500 of 800
+processing scan 600 of 800
+processing scan 700 of 800
+processing scan 800 of 800 ---->Proceso de escaneo
+
+------------> A continuación se muestra los errores que se generaron en las siguientes estaciones
+
+ Problems with non-tidal atmosphere loading at station BADARY  --->Carga atmosferica sin mareas  
+
+ Problems with VMF3 at station BADARY --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station FORTLEZA -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station FORTLEZA --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station HART15M  -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station HART15M  --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station ISHIOKA  -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station ISHIOKA  --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station KOKEE  -->Carga atmosferica sin mareas    
+
+ Problems with VMF3 at station KOKEE    --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station NYALES20 -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station NYALES20 --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station SVETLOE  -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station SVETLOE  --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station WETTZ13N -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station WETTZ13N --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with non-tidal atmosphere loading at station WETTZELL  -->Carga atmosferica sin mareas 
+--->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+ Problems with VMF3 at station WETTZELL 
+
+ Problems with non-tidal atmosphere loading at station YEBES40M  -->Carga atmosferica sin mareas --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+
+ Problems with VMF3 at station YEBES40M --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+ Problems with non-tidal atmosphere loading at station ZELENCHK -->Carga atmosferica sin mareas 
+
+ Problems with VMF3 at station ZELENCHK --->Problema con el VMF3 (datos de accesos abierto de viena funciones de mapeo de troposfera discretas y empíricas refinadas)
+ 
+vie_mod successfully finished!
+---------------------------------------------------------------
+|                   Welcome to VIE_LSM!!!!!                   |
+---------------------------------------------------------------
+
+0. APPLY OUTLIERS AND ANALYSIS OPTIONS ---> Aplicara opciones de analisis hace enfasis en que no se eliminan atipicos
+Outliers will not be removed
+
+Remove observations to sources with less than 5 observations in total.--> se eliminara fuentes con menos de 5 observaciones
+ - 17 sources have less than 5 observations (40 obs will be removed)---> elimino 17 fuentes y en total 40 observaciones
+1. LOAD AND PREPARE DATA -----> Carga la data
+number of scans            : 700 --->Numero de escaneos
+number of antennas         : 11 ---->Numero de antenas
+number of sources (quasars): 65 ---->Numero de cuasares
+number of obs.             : 5837 ---->Numero de observaciones
+2. CREATING DEFAULT OPTIONS ---->Crea opciones por defecto
+ISHIOKA  is excluded from datum or is not fixed --->Escluye ISHIOKA o no se fija por el itrf esto esta en la primeras lineas de codigo su exclusion
+WETTZ13N is excluded from datum or is not fixed  ---->Encluye WETTZ13N o no se fija
+
+3. FORMING THE WEIGHT MATRIX OF THE OBSERVATIONS "Pobserv"--->Formacion de la matriz de peso de las observaciones
+Constant noise added to input sig.: 0.50 cm---> Ruido constante añadido a la señal de entrada
+apriori std. dev. of unit weight. : 0.8970 ---> Desviacion estandar
+obs. of the antenna BADARY   : 1283
+obs. of the antenna FORTLEZA :  407
+obs. of the antenna HART15M  :  689
+obs. of the antenna ISHIOKA  :  992
+obs. of the antenna KOKEE    :  741
+obs. of the antenna NYALES20 : 1299
+obs. of the antenna SVETLOE  : 1379
+obs. of the antenna WETTZ13N : 1331
+obs. of the antenna WETTZELL :  995
+obs. of the antenna YEBES40M : 1189
+obs. of the antenna ZELENCHK : 1369 ------->Observaciones totales
+
+4. FORMING THE REDUCED OBSERVATION VECTOR "oc_observ" --->Formacion del vector de observacion reducido
+clock BADARY   is selected as the ref. clock for the first solution --->Selecciona la referencia del reloj para la primera solucion
+chi-squared of first solution: 38.4464 ---->Chi cuadrado
+5. FORMING THE DESIGN MATRICES "A(i).sm" ... ------>Formacion del diseño de las matrices
+6. FORMING THE CONSTRAIN MATRIX and WEIGHT MATRIX OF CONSTRAINTS ---->Matriz de peso y matriz restriccion
+7. ESTIMATING THE PARAMETERS WITH LEAST SQUARES ---->estima los parametros mediante minimos cuadrados
+Station not in NNT: ISHIOKA  WETTZ13N --->sin traducción neta (NNT)
+Station not in NNR: ISHIOKA  WETTZ13N ---> sin rotación neta (NNR) 
+Station not in NNS: BADARY   FORTLEZA HART15M  ISHIOKA  KOKEE    NYALES20 SVETLOE  WETTZ13N WETTZELL YEBES40M ZELENCHK  --->Sin escala neta
+!!! NNT and NNR conditions are introduced to matrix N for station coordinates!!!-->NNT y NNr se introducen en la matriz N para las coor estacion
+!!! NNR condition is introduced to matrix N for source coordinates!!!---> NNR se intruce en la matriz n para la coor origen
+clock BADARY   is selected as the ref. clock for the main solution---> Selecciona el reloj BADARY para la solucion 
+----------
+outlier detection test was not applied! ---> No aplica valores atipicos
+----------
+---------------------------------------------------------
+total clock offsets:                           257 ---> despalzamiento de reloj
+total rate and quad. terms of clock funct.:     20 ---> datos omitidos en funcion del reloj
+total zenith wet delay offsets:                533 ---> Compensacion de retraso del zenit
+total tropo. north gradients:                  110 ---> gradiente norte de la troposfera
+total tropo. east gradients:                   110 ---> gradiente este de la troposfera
+total pole coor. (x-pol) offsets:                3 ---> coordenadas del polo en x
+total pole coor. (y-pol) offsets:                3 ---> coordenadas del polo en y
+total dUT1 offsets:                              3 ---> Cooreccion del tiempo del DUT1= UT- UTC
+total celestial pole (nutation dx) offsets:      3 ---> Desplzamiento del polo en x
+total celestial pole (nutation dy) offsets:      3 ---> desplazamiento en polo en y
+total right ascension offsets of sources :      65 ---> ascension recta de los cuasares
+total declination offsets of sources :          65 ---> Declinacion de los cuasares
+antenna coor. dx offsets:                       11 ---> Compensasion de coordenadas de la antena en x
+antenna coor. dy offsets:                       11 ---> Compensasion de coordenadas de la antena en y
+antenna coor. dz offsets:                       11 ---> Compensasion de coordenadas de la antena en z
+---------------------------------------------------------
+total number of estimated parameters:         1208 -----> Numero total de parametros
+---------------------------------------------------------
+----------
+Y coordinate estimate (-1.89 +-  0.34 cm) of ISHIOKA  (not in NNR/NNT) is significant on  5 sigma level
+Y coordinate estimate (-0.52 +-  0.10 cm) of NYALES20 (in NNR/NNT) is significant on  5 sigma level
+Z coordinate estimate ( 2.42 +-  0.40 cm) of NYALES20 (in NNR/NNT) is significant on  5 sigma level
+X coordinate estimate ( 1.54 +-  0.17 cm) of SVETLOE  (in NNR/NNT) is significant on  5 sigma level
+Y coordinate estimate ( 1.34 +-  0.13 cm) of SVETLOE  (in NNR/NNT) is significant on  5 sigma level
+X coordinate estimate ( 1.12 +-  0.22 cm) of WETTZELL (in NNR/NNT) is significant on  5 sigma level
+Z coordinate estimate ( 1.63 +-  0.32 cm) of WETTZELL (in NNR/NNT) is significant on  5 sigma level
+X coordinate estimate (-6.94 +-  0.30 cm) of YEBES40M (in NNR/NNT) is significant on  5 sigma level
+Z coordinate estimate (-5.49 +-  0.33 cm) of YEBES40M (in NNR/NNT) is significant on  5 sigma level
+X coordinate estimate ( 1.68 +-  0.22 cm) of ZELENCHK (in NNR/NNT) is significant on  5 sigma level
+Y coordinate estimate ( 1.77 +-  0.20 cm) of ZELENCHK (in NNR/NNT) is significant on  5 sigma level
+Z coordinate estimate ( 3.39 +-  0.30 cm) of ZELENCHK (in NNR/NNT) is significant on  5 sigma level
+
+-----> error SIGMA estimado en algunas estaciones significativas en 5 niveles del error formal del restraso
+
+Estimated parameters are saved as ../DATA/LEVEL3/Test3/x_20APR02XE.mat --->Parametros guardados 
+Estimation options are saved as ../DATA/LEVEL3/Test3/opt_20APR02XE.mat --->Opciones de estimacion guardados
+normal equation matrix is saved as ../DATA/LEVEL3/Test3/atpa_20APR02XE.mat ---> Matriz de estimación guardada
+Residuals are saved as ../DATA/LEVEL3/Test3/res_20APR02XE.mat --->residuales guardados
+Save VieVS data structures (outliers and OPT file options applied!) -->Guardar las estructuras de datos de VieVS
+  ../DATA/LEVEL3/Test3/20APR02XE_antenna.mat
+  ../DATA/LEVEL3/Test3/20APR02XE_source.mat
+  ../DATA/LEVEL3/Test3/20APR02XE_parameter.mat
+  ../DATA/LEVEL3/Test3/20APR02XE_scan.mat
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+chi-squared of main solution vTPv/degOfFreedom: 1.674 --->Chi cuadrado de la solucion
+WRMS of post-fit residuals sqrt(v_realTPv_real/sumOfWeights): 0.833 cm (27.795 ps) --->Residuales posteriores del ajuste de cuadrados 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+vie_lsm is successfully finished after 7.47 seconds! --->acabo el proceso de vie_lsm
+
+
+VieVS processing ends at 04:42:24, 2022/06/16 --->proceso fianlizado
+VieVS runtime: 38 seconds (0.01 hours) --->Tiempo de ejecucion
