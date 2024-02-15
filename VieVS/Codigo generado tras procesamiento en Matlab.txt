@@ -210,5 +210,5 @@ WRMS of post-fit residuals sqrt(v_realTPv_real/sumOfWeights): 0.833 cm (27.795 p
 vie_lsm is successfully finished after 7.47 seconds! --->acabo el proceso de vie_lsm
 
 
-VieVS processing ends at 04:42:24, 2022/06/16 --->proceso fianlizado
+VieVS processing ends at 04:42:24, 2022/06/16 --->proceso finalizado
 VieVS runtime: 38 seconds (0.01 hours) --->Tiempo de ejecucion
